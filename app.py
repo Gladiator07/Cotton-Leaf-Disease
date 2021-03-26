@@ -7,12 +7,8 @@ Created on Thu Jun 11 22:34:20 2020
 
 from __future__ import division, print_function
 # coding=utf-8
-import sys
 import os
-import glob
-import re
 import numpy as np
-import tensorflow as tf
 import tensorflow as tf
 
 
@@ -68,7 +64,6 @@ def model_predict(img_path, model):
     
     
     return preds
-    return render_template('index.html')
 
 @app.route('/', methods=['GET'])
 def index():
