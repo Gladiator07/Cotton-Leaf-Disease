@@ -87,7 +87,7 @@ def upload():
         preds = model_predict(file_path, model)
         result=preds
         return result
-    return render_template('index.html')
+    return None
 
 
 
